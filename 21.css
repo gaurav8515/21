@@ -64,3 +64,15 @@ main p{
     background-color: yellow;
     column-gap: black;
 }
+@media(max-width:600px)
+{
+    #cont{
+        width: 80%;
+    }
+    header h1{
+        font-size: 2rem;
+    }
+    header img{
+        width: 70%;
+    }
+}
