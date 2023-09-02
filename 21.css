@@ -1,0 +1,66 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Akaya Telivigala', cursive;
+    background-image: linear-gradient(red,white);
+    height: 100vh;
+}
+#cont{
+    display: flex;
+    justify-content: center;
+    background-color:white ;
+    color:  black;
+    width: 30%;
+    margin: auto;
+}
+header{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+header h1{
+    color: red;
+    font-size: 3.6rem;
+    margin: 0;
+}
+header h1 span{
+    color: black;
+
+}
+main h2,h4{
+    text-align: center;
+    
+}
+
+ main #butt{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+main #butt button{
+    width: 20%;
+    height: 2rem;
+    border-radius: 5px;
+    border: none;
+    background-color: yellow;
+    column-gap: black;
+}
+main #butt #new{
+    background-color: orangered;
+}
+main p{
+    text-align: center;
+
+}
+#rbut{
+    text-align: center;
+    margin-top: 1rem;
+}
+#rbut button{
+    width: 20%;
+    height: 2rem;
+    border-radius: 5px;
+    border: none;
+    background-color: yellow;
+    column-gap: black;
+}
